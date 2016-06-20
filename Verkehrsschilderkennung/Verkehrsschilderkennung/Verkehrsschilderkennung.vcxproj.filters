@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\OwnFunctions">
+      <UniqueIdentifier>{3103ed4c-2cd2-49d1-94c9-70574d12574b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\OwnFunctions">
+      <UniqueIdentifier>{a48efdbf-505c-4d6c-aa75-8e375d5c6ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\OwnDataTypes">
+      <UniqueIdentifier>{e2b0738b-476d-4f39-9a16-4d84517437af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\OwnDatTypes">
+      <UniqueIdentifier>{a0c35989-2253-4c9e-bb5f-d2fbf2fb1bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\OwnDatTypes\IO">
+      <UniqueIdentifier>{0515a877-da1b-4053-b835-34372573b368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\OwnDataTypes\IO">
+      <UniqueIdentifier>{3354f165-4037-40b3-820d-2d54eb3ed7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Constands">
+      <UniqueIdentifier>{945fc861-a316-4b82-b153-18627a99250e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Constands">
+      <UniqueIdentifier>{f8895808-e2de-4579-8792-2607ecc11843}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OwnFilter.cpp">
+      <Filter>Quelldateien\OwnFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Quelldateien\OwnDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Quelldateien\OwnDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Quelldateien\OwnDataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CuttingTheSigns.cpp">
+      <Filter>Quelldateien\OwnFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleDetection.cpp">
+      <Filter>Quelldateien\OwnFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleDetection.cpp">
+      <Filter>Quelldateien\OwnFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleDetection.cpp">
+      <Filter>Quelldateien\OwnFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassificationNetwork.cpp">
+      <Filter>Quelldateien\OwnFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Quelldateien\OwnDataTypes\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Constands.cpp">
+      <Filter>Quelldateien\Constands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OwnFilter.hpp">
+      <Filter>Headerdateien\OwnFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.hpp">
+      <Filter>Headerdateien\OwnDatTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.hpp">
+      <Filter>Headerdateien\OwnDatTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.hpp">
+      <Filter>Headerdateien\OwnDatTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CuttingTheSigns.hpp">
+      <Filter>Headerdateien\OwnFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleDetection.hpp">
+      <Filter>Headerdateien\OwnFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleDetection.hpp">
+      <Filter>Headerdateien\OwnFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleDetection.hpp">
+      <Filter>Headerdateien\OwnFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassificationNetwork.hpp">
+      <Filter>Headerdateien\OwnFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.hpp">
+      <Filter>Headerdateien\OwnDatTypes\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Constands.hpp">
+      <Filter>Headerdateien\Constands</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
